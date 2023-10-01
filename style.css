@@ -58,3 +58,112 @@ header {
   font-weight: 500;
   line-height: 24px;
 }
+
+.works {
+  display: inline-flex;
+  padding: 114px 8px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+}
+
+.mainCards .card {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 12px;
+  width: 270px;
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.mainCards .card img {
+  height: 220px;
+  width: 272px;
+  border-radius: 8px;
+}
+
+.mainCards .card .textArea h1 {
+  /* width: 272px;
+    height: 36px; */
+  color: var(--neutrals-n-800, #172b4d);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0;
+}
+
+.mainCards .card .textArea .frame {
+  width: 240px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.mainCards .card .textArea .frame h3 {
+  color: var(--neutrals-n-600, #394456);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.mainCards .card .textArea .frame img {
+  width: 8px;
+  height: 8px;
+}
+
+.mainCards .card .textArea p {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.mainCards .card .textArea .buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.mainCards .card .textArea .buttons button {
+  color: #6070ff;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  display: flex;
+  padding: 8px 15px;
+  align-items: center;
+  border: none;
+}
+
+.mainCards .card .textArea .projectbutton {
+  display: flex;
+  padding: 12px 169px 12px 0;
+  align-items: center;
+}
+
+.mainCards .card .textArea .projectbutton .project {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  background: #fff;
+}
