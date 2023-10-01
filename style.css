@@ -66,112 +66,237 @@ header {
 }
 
 .parent {
-    display: inline-flex;
-    padding: 114px 8px;
-    flex-direction: column;
-    align-items: center;
+  display: inline-flex;
+  padding: 114px 8px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .display_cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
 }
 
 .display_cards .card {
-    display: flex;
-    padding: 16px;
-    flex-direction: column;
-    align-items: center;
-    justify-self: center;
-    gap: 12px;
-    width: 270px;
-    border: 1px solid var(--neutrals-n-40, #DFE1E6);
-    border-radius: 16px;
-    background-color: #fff;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 12px;
+  width: 270px;
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
+  border-radius: 16px;
+  background-color: #fff;
 }
 
 .display_cards .card img {
-    height: 220px;
-    width: 272px;
-    border-radius: 8px;
+  height: 220px;
+  width: 272px;
+  border-radius: 8px;
 }
 
 .display_cards .card .maintext h1 {
-    /* width: 272px;
+  /* width: 272px;
     height: 36px; */
-    color: var(--neutrals-n-800, #172B4D);
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 44px;
-    margin: 0;
+  color: var(--neutrals-n-800, #172b4d);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0;
 }
 
 .display_cards .card .maintext .frame {
-    width: 240px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 16px;
-    margin: 0;
+  width: 240px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  margin: 0;
 }
 
 .display_cards .card .maintext .frame h3 {
-    color: var(--neutrals-n-600, #394456);
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
+  color: var(--neutrals-n-600, #394456);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
 }
 
 .display_cards .card .maintext .frame img {
-    width: 8px;
-    height: 8px;
+  width: 8px;
+  height: 8px;
 }
 
 .display_cards .card .maintext p {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.display_cards .card .maintext .buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.display_cards .card .maintext .buttons button {
+  color: #6070ff;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  display: flex;
+  padding: 8px 15px;
+  align-items: center;
+  border: none;
+}
+
+.display_cards .card .maintext .projectbutton {
+  display: flex;
+  padding: 12px 169px 12px 0;
+  align-items: center;
+}
+
+.display_cards .card .maintext .projectbutton .project {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  background: #fff;
+}
+.about {
+    display: inline-flex;
+    padding: 114px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 275px;
+    border-top: 1px solid var(--neutrals-n-40, #bbc1d0);
+    border-radius: 0 85px 0 0;
+    background-color: #fff;
+}
+
+.about .top h2 {
+    display: flex;
+    width: 257px;
+    height: 35px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--neutrals-n-800, #192b4c);
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.about .top p {
     color: var(--neutrals-n-600, #344563);
-    font-size: 15px;
+    font-family: Poppins;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
 
-.display_cards .card .maintext .buttons {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
+.about .top span {
+    color: var(--neutrals-n-600, #7F8CFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
-.display_cards .card .maintext .buttons button {
-    color: #6070FF;
-    border-radius: 8px;
-    background: var(--primary-b-50, #EBEBFF);
-    display: flex;
-    padding: 8px 15px;
-    align-items: center;
-    border: none;
+
+.about .top img {
+    padding: 16px 0;
 }
 
-.display_cards .card .maintext .projectbutton {
 
-    display: flex;
-    padding: 12px 169px 12px 0px;
-    align-items: center;
-}
 
-.display_cards .card .maintext .projectbutton .project {
-    display: flex;
+.about .top button {
     padding: 12px;
-    align-items: center;
-    gap: 10px;
     border-radius: 8px;
     border: 1px solid var(--primary-b-400, #6070FF);
-    background: #fff;
+    color: var(--primary-b-500, #396DF2);
+    font-family: Poppins;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.51px;
 }
 
+
+.languages .text{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+
+
+.languages .text h1 {
+    width: 200px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.languages .text img {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: start;
+}
+
+.languages .drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.languages .drop .lang {
+    display: flex;
+    width: 250px;
+    padding: 9px 12px 9.716px 12px;
+    align-items: center;
+    gap: 16px;
+    background-color: #F7F7F9;
+    border-radius: 8px;
+}
+
+.languages .drop .lang img{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    border: 1px solid var(--neutrals-n-0, #FFF);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.languages .drop .lang h1{
+    display: flex;
+    width: 215px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--neutrals-n-700, #253858);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
