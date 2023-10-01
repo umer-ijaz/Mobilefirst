@@ -93,9 +93,16 @@ header {
   border-radius: 8px;
 }
 
+.languages .text h1 {
+  width: 200px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .mainCards .card .textArea h1 {
-  /* width: 272px;
-    height: 36px; */
   color: var(--neutrals-n-800, #172b4d);
   font-size: 27px;
   font-style: normal;
@@ -122,17 +129,29 @@ header {
   line-height: 16px;
 }
 
+.about .top img {
+  padding: 16px 0;
+}
+
+.languages .text img {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: start;
+}
+
+.languages .drop .lang img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  border: 1px solid var(--neutrals-n-0, #fff);
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
 .mainCards .card .textArea .frame img {
   width: 8px;
   height: 8px;
-}
-
-.mainCards .card .textArea p {
-  color: var(--neutrals-n-600, #344563);
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 .mainCards .card .textArea .buttons {
@@ -140,6 +159,16 @@ header {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.about .top button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  color: var(--primary-b-500, #396df2);
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.51px;
 }
 
 .mainCards .card .textArea .buttons button {
@@ -166,4 +195,91 @@ header {
   border-radius: 8px;
   border: 1px solid var(--primary-b-400, #6070ff);
   background: #fff;
+}
+
+.about {
+  display: inline-flex;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 275px;
+  border-top: 1px solid var(--neutrals-n-40, #bbc1d0);
+  border-radius: 0 85px 0 0;
+  background-color: #fff;
+}
+
+.about .top h2 {
+  display: flex;
+  width: 257px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--neutrals-n-800, #192b4c);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.about .top p {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.mainCards .card .textArea p {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about .top span {
+  color: var(--neutrals-n-600, #7f8cff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.languages .text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+
+.languages .drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.languages .drop .lang {
+  display: flex;
+  width: 250px;
+  padding: 9px 12px 9.716px 12px;
+  align-items: center;
+  gap: 16px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.languages .drop .lang h1 {
+  display: flex;
+  width: 215px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--neutrals-n-700, #253858);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }
