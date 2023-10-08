@@ -23,7 +23,6 @@ body {
 header {
   border-bottom: 1px solid var(--neutrals-n-40, #bbc1d0);
   border-radius: 0 0 0 60px;
-  background: url('images/Header\ bg.svg') no-repeat;
   background-size: cover;
   background-color: #fff;
 }
@@ -34,6 +33,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  background: url('images/header-shapes\ mobile@2x.svg') no-repeat;
 }
 
 .hero h2 {
@@ -282,4 +282,125 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+}
+
+.contact{
+  width: 325px;
+  border-radius: 80px 0 0 0;
+  background-color: var(--primary-b-400, #6070FF);
+}
+
+
+.contact .parentContainer{
+  flex-shrink: 0;
+  border-radius: 70px 0 0 0;
+  background: url(images/contact\ form\ shapes-mobile.svg) right center no-repeat;
+  background-size: 70% auto;
+  padding: 29px;
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .parentContainer h2{
+  color: #fff;
+  margin: 0;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: Poppins, Arial;
+  margin-top: 10rem;
+}
+
+.contact .parentContainer p{
+  color: var(--primary-b-50, #EBEBFF);
+  text-align: center;
+  font-family: Poppins, Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  margin-bottom: 50px;
+}
+
+.contact .parentContainer .input{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .parentContainer input{
+  height: 48px;
+  flex-shrink: 0;
+  width: 265px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #CFD8DC);
+}
+
+.contact .parentContainer .input .t1{
+  padding: 10px 16px;
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins, Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact .parentContainer .input .t1::placeholder{
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins, Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+
+.contact .parentContainer .input .text-input{
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #CFD8DC);
+  padding: 15px 16px 38px;
+  height: 130px;
+}
+
+
+
+.contact .parentContainer .input .text-input::placeholder{
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins, Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.end-button{
+  display: inline-flex;
+  padding: 24px 0 ;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.end-button button{
+  display: inline-flex;
+  padding: 14px 22px;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid var(--base-100, #909496);
+  border-radius: 8px;
+  background-color: white;
+  color: var(--primary-b-400, #6070FF);
+  text-align: center;
+  margin-left: -16px;
+  font-family: Poppins, Arial;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.51px;
 }
