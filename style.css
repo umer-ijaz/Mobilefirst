@@ -211,3 +211,396 @@ body {
     border: 1px solid var(--primary-b-400, #6070ff);
     background: #fff;
   }
+  .about {
+  display: inline-flex;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 275px;
+  border-top: 1px solid var(--neutrals-n-40, #bbc1d0);
+  border-radius: 0 85px 0 0;
+  background-color: #fff;
+}
+
+.about .top h2 {
+  display: flex;
+  width: 257px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--neutrals-n-800, #192b4c);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.about .top span {
+  color: var(--neutrals-n-600, #7f8cff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.languages .text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+
+.languages .drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.languages .drop .lang {
+  display: flex;
+  width: 250px;
+  padding: 9px 12px 9.716px 12px;
+  align-items: center;
+  gap: 16px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.languages .drop .lang h1 {
+  display: flex;
+  width: 215px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--neutrals-n-700, #253858);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.contact{
+  background-color: #fff;
+  width: 325px;
+  flex-shrink: 0;
+  background-color: var(--primary-b-400, #6070FF);
+  border-radius: 80px 0 0 0;
+  
+}
+
+
+.contact .parentContainer{
+  flex-shrink: 0;
+  border-radius: 70px 0 0 0;
+  background: url(images/contact\ form\ shapes-mobile.svg) right center no-repeat;
+  background-size: 70% auto;
+  padding: 29px;
+  background-repeat: no-repeat;
+  width: 265px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .parentContainer h2{
+  color: #fff;
+  margin: 0;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: Poppins, Arial;
+  margin-top: 10rem;
+}
+
+.contact .parentContainer p{
+  color: var(--primary-b-50, #EBEBFF);
+  text-align: center;
+  font-family: Poppins, Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  margin-bottom: 50px;
+}
+
+.contact .parentContainer .input{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .parentContainer input{
+  height: 48px;
+  flex-shrink: 0;
+  width: 265px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #CFD8DC);
+}
+
+.contact .parentContainer .input .input{
+  padding: 10px 16px;
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins, Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact .parentContainer .input .input::placeholder{
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins, Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+
+.contact .parentContainer .input .msg{
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #CFD8DC);
+  padding: 15px 16px 38px;
+  height: 130px;
+}
+
+
+
+.contact .parentContainer .input .msg::placeholder{
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins, Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.end-button{
+  display: inline-flex;
+  padding: 24px 0 ;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.end-button button{
+  display: inline-flex;
+  padding: 14px 22px;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid var(--base-100, #909496);
+  border-radius: 8px;
+  background-color: white;
+  color: var(--primary-b-400, #6070FF);
+  text-align: center;
+  margin-left: -16px;
+  font-family: Poppins, Arial;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.51px;
+}
+.about {
+    display: inline-flex;
+    padding: 114px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 275px;
+    border-top: 1px solid var(--neutrals-n-40, #bbc1d0);
+    border-radius: 0 85px 0 0;
+    background-color: #fff;
+  }
+  
+  .about .top h2 {
+    display: flex;
+    width: 257px;
+    height: 35px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--neutrals-n-800, #192b4c);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+  }
+  
+  .about .top span {
+    color: var(--neutrals-n-600, #7f8cff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .languages .text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-evenly;
+  }
+  
+  .languages .drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .languages .drop .lang {
+    display: flex;
+    width: 250px;
+    padding: 9px 12px 9.716px 12px;
+    align-items: center;
+    gap: 16px;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+  }
+  
+  .languages .drop .lang h1 {
+    display: flex;
+    width: 215px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--neutrals-n-700, #253858);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  .contact{
+    background-color: #fff;
+    width: 325px;
+    flex-shrink: 0;
+    background-color: var(--primary-b-400, #6070FF);
+    border-radius: 80px 0 0 0;
+    
+  }
+  
+  
+  .contact .parentContainer{
+    flex-shrink: 0;
+    border-radius: 70px 0 0 0;
+    background: url(images/contact\ form\ shapes-mobile.svg) right center no-repeat;
+    background-size: 70% auto;
+    padding: 29px;
+    background-repeat: no-repeat;
+    width: 265px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact .parentContainer h2{
+    color: #fff;
+    margin: 0;
+    flex-shrink: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    font-family: Poppins, Arial;
+    margin-top: 10rem;
+  }
+  
+  .contact .parentContainer p{
+    color: var(--primary-b-50, #EBEBFF);
+    text-align: center;
+    font-family: Poppins, Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-bottom: 50px;
+  }
+  
+  .contact .parentContainer .input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact .parentContainer input{
+    height: 48px;
+    flex-shrink: 0;
+    width: 265px;
+    border-radius: 8px;
+    border: 1px solid var(--base-100, #CFD8DC);
+  }
+  
+  .contact .parentContainer .input .input{
+    padding: 10px 16px;
+    color: var(--neutrals-n-60, #B3BAC5);
+    font-family: Poppins, Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .contact .parentContainer .input .input::placeholder{
+    color: var(--neutrals-n-60, #B3BAC5);
+    font-family: Poppins, Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+  }
+  
+  
+  .contact .parentContainer .input .msg{
+    border-radius: 8px;
+    border: 1px solid var(--base-100, #CFD8DC);
+    padding: 15px 16px 38px;
+    height: 130px;
+  }
+  
+  
+  
+  .contact .parentContainer .input .msg::placeholder{
+    color: var(--neutrals-n-60, #B3BAC5);
+    font-family: Poppins, Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .end-button{
+    display: inline-flex;
+    padding: 24px 0 ;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+  }
+  
+  .end-button button{
+    display: inline-flex;
+    padding: 14px 22px;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid var(--base-100, #909496);
+    border-radius: 8px;
+    background-color: white;
+    color: var(--primary-b-400, #6070FF);
+    text-align: center;
+    margin-left: -16px;
+    font-family: Poppins, Arial;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.51px;
+  }
+  
